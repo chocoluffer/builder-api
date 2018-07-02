@@ -1,0 +1,36 @@
+{
+  "name": "quizhoney-api",
+  "description": "Elm API",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cloudinary": "^1.11.0",
+    "coinbase": "^2.0.8",
+    "cors": "^2.8.1",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.3",
+    "fb": "^1.1.1",
+    "jsonwebtoken": "^7.3.0",
+    "kerberos": "~0.0.x",
+    "method-override": "^2.3.10",
+    "mongodb": "*",
+    "multer-s3": "^2.7.0",
+    "parse": "~1.8.0",
+    "parse-server": "^2.8.2",
+    "prerender-node": "^2.7.1",
+    "q": "^1.5.0",
+    "sendgrid": "^4.7.1",
+    "superagent": "^3.8.3",
+    "underscore": "*"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "8.1.x"
+  }
+}
