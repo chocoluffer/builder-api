@@ -1,4 +1,8 @@
-# World Builder - Potentially reduced in scope to simply Character Builder
+# ACTIVE: WORK-IN-PROGRESS - Builder API
+
+Backend for [world-management/builder](https://github.com/chocoluffer/world_management) & [world-management/builder-mobile](https://github.com/chocoluffer/world_management_mobile)
+
+Potentially reduced in scope to simply Character Builder
 
 IN PROGRESS - 7/15/2018 (solo)
 
@@ -11,15 +15,19 @@ Auto generation of basic character information to help inspire characters, or to
 
 ## /character
 
+Generates a full character from the four categories
+
+## /physical
+
 Generates a physical description
 
-## /bio
+## /IP-descphrase
 
 Randomized a basic personality (phrase/simple sentance builder)
 - stubborn girl driven to become a better warrior
 - aggressive boy scarred by his father's passage
 
-## /IP-depth-bio
+## /IP-bio
 
 Generates personality with more depth. (paragraph builder)
 - Basic about me
