@@ -56,6 +56,20 @@ const getHairColor = (status) => {
   return deferred.promise;
 }
 
+// const getHairStyle?
+
+// const getFaceShape?
+
+// const getHeight
+
+// const getBuild
+
+// const get demeanor or stance (relaxed, tense, etc)
+
+// const getAge
+
+// const generateName
+
 const buildCharacter = (req, res) => {
   console.log("inside builder", req.query, "- - - - - ", req.body);
   // req.query would be ?facts='obviously'
